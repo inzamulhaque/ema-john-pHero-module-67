@@ -1,0 +1,28 @@
+.header {
+    background: #1c2b35;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 140px;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px;
+    font-size: 17px;
+    transition: all 0.7s;
+    border-radius: 50px;
+}
+
+.header a:hover {
+    color: royalblue;
+    background: #fff;
+}
+
+.active {
+    color: royalblue !important;
+    background: #fff;
+}
